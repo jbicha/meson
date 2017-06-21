@@ -2,7 +2,8 @@
 
 .text
 .globl SYMBOL_NAME(get_retval)
+.type get_retval, %function
 
 SYMBOL_NAME(get_retval):
-	xorl	%eax, %eax
-	retl
+    xorl	%eax, %eax
+    retl
